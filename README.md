@@ -1,5 +1,5 @@
-# bakaka
+# bukaka
 
 Tugas berupa php native & jquery
 
-untuk mengakses : { url }/bakaka
+untuk mengakses : { url }/bukaka
