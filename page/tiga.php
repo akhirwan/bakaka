@@ -87,10 +87,10 @@
 
 <code>
 	$array = [20,10,100,30,15,5]; <br>
-	array_push($array, 180); <br>
+	$array = array_diff($array, [30]); <br>
 
 	echo 'array = '; <br>
 	foreach ($array as $a => $arr) { <br>
 		echo $arr.', '; <br>
-	}
+	} <br>
 </code>

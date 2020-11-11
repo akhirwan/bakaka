@@ -59,7 +59,7 @@ manis. ke variabel buah dan tampilkan Nama Buah dengan urutan secara descending<
 <p><b>OUTPUT : </b></p>
 
 <code>
-	<button onclick="myFunction()">Add Array</button>
+	<button onclick="myFunction2()">Add Array</button>
 	<p id="fruit2"></p>
 	<script>
 		var orange = ["JERUK", 5000, "ASAM"];
@@ -69,9 +69,9 @@ manis. ke variabel buah dan tampilkan Nama Buah dengan urutan secara descending<
 		var duku = ["DUKU", 10000, "ASAM"];
 		var jack = ["NANAS", 5000, "ASAM"];
 		var fruits = [orange, manggo, apple, durian, duku, jack];
-		document.getElementById("fruit").innerHTML = fruits;
+		document.getElementById("fruit2").innerHTML = fruits;
 
-		function myFunction() {
+		function myFunction2() {
 			var banana = ["PISANG", 5000, "MANIS"];
 			fruits.push(banana);
 			document.getElementById("fruit2").innerHTML = fruits;
